@@ -12,6 +12,7 @@ body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 /*the top part with the words*/
 .top-third{
