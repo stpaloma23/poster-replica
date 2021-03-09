@@ -3,6 +3,17 @@ body{
   margin: 0;
   padding: 0;
 }
+
+/*source stack overflow https://stackoverflow.com/questions/19598836/resize-web-page-to-fit-screen*/
+/*
+@media only screen and
+(min-device-width : screen px) and
+(max-device-width : screen px)
+and (max-device-height: screen px)
+and (min-device-height: screen px){
+    #id{style}
+}
+*/
 /*background*/
 .poster{
   height: 1000px;
