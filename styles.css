@@ -16,22 +16,27 @@ and (min-device-height: screen px){
 */
 /*background*/
 .poster{
-  height: 1000px;
+
   width: 710px;
-  background-color: #ed008c;
+
   margin: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
+  height: 100vh;
+  width: 710px;
+  margin: auto;
+  /*display: flex; */
 }
 /*the top part with the words*/
 .top-third{
   display: block;
   height: 33.33%;
   width: 710px;
-  padding-left: 20px;
-  padding-right:15px;
+  background-color: #ed008c;
+
+
 
 }
 /*making there less space betwene the paragraph lines*/
@@ -54,7 +59,7 @@ p{
 .top-third .blondie{
   align-self: flex-end; /*these flex things didnt work*/
   justify-content: flex-start;
-  padding-top: 175px;
+  padding-top: 173px;
   padding-left: 10px;
 }
 /*removing the default settings of h1*/
